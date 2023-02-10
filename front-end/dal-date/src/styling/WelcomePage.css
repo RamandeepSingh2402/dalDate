@@ -1,0 +1,35 @@
+#WelcomePage{
+    /* width: fit-content;
+    height: fit-content; */
+
+}
+
+h1{
+  margin: auto;
+  width: 50%;
+  color: black;
+  align-self: center;
+  padding-left: 30%;
+  padding-top: 60px;
+}
+
+#intro{
+    margin: auto;
+    width: 30%;
+    color: black;
+    align-self: center;
+    content: bolder;
+    padding: 5px;
+    display: block;
+    background-color: #54B4D3;
+}
+
+#loginPrompt{
+    margin: auto;
+    padding: 20px;
+    width: 12%;
+}
+
+h1:hover{
+    color: darksalmon;
+}
