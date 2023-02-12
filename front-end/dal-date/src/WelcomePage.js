@@ -1,4 +1,4 @@
-import LoginPage from './LoginPage';
+import LoginPage from './components/LoginPage';
 import './styling/WelcomePage.css';
 import {Route, Routes, Link} from 'react-router-dom';
 
@@ -20,7 +20,6 @@ function WelcomePage() {
       <p id='loginPrompt'>
         Already have an account?<br/>
         <Link to="/loginPage">Log in</Link>
-        {/* <a ref={LoginPage}>Click here to login.</a> */}
       </p>
     </div>
     );

@@ -2,7 +2,7 @@ import './App.css';
 import WelcomePage from './WelcomePage';
 import React, {useRef} from 'react';
 import { Route, Routes } from 'react-router-dom';
-import LoginPage from './LoginPage';
+import LoginPage from './components/LoginPage';
 
 
 
