@@ -3,7 +3,7 @@
 }
 #DalDate{
     margin: auto;
-    margin-top: 150px;
+    margin-top: 130px;
     width: fit-content;
     padding: 5%;
     border-radius: 100%;
@@ -21,16 +21,20 @@
 
 .login-wrapper {
     display: flex;
+    padding-top: 20px;
     flex-direction: column;
     align-items: center;
     margin: auto;
     width: 70%;
-    background-color: antiquewhite;
     border-radius: 50px;
 }
 
-#formBackground label{ 
+#formBackground{ 
     background-color: antiquewhite;
     border-radius:5%;
+    padding: 3%;
 }
 
+#formBackground p {
+    background-color: antiquewhite;
+}
